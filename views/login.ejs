@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins&display=swap');
+
+    * {
+        margin: 20px 20px;
+        color: white;
+        /* background-color: wheat; */
+        font-family: 'Poppins', sans-serif;
+        /* background-color: #62178e; */
+    }
+
+    h1 {
+        padding: 10px;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .signup-input {
+        max-width: 800px;
+        background-color: #62178e;
+        padding: 10px;
+        border: 1px solid green;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .signup-input > label {
+        display: block;
+        /* width: 300px;   */
+        margin: 30px 20px;
+    }
+
+    .signup-input > label > input {
+        display: block;
+        width: 600px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        margin: 5px 0;
+    }
+    
+    button {
+        height: 50px;
+        width: 120px;
+        margin: 0 auto;
+        margin-left: 20px;
+        background-color: #438E17;
+        border: 2px solid gray;
+        border-radius: 7px;
+    }
+    
+    p {
+        margin: 20px 0;
+        margin-left: 20px;
+    }
+
+    a {
+        color: gold;
+    }
+
+    a:hover {
+        color: #23DC9D;
+    }
+
+    /* a:visited {
+        color: whitesmoke;
+    } */
+
+  </style>
+
+  <body>
+    <h1>Login</h1>
+
+    <div class="Signup">
+        <form class="signup-input">
+            <label for="email" class="label">Email&nbsp;<input type="email" name="email"></label>
+            <label for="password" class="label">Password&nbsp;<input type="password" name="password"></label>
+            
+            <button type="submit" name="login">Login</button>
+            <p>Don't have an account yet? <a href="/register">Register</a></p>
+        </form>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
